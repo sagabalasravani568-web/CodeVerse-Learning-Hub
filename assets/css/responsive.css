@@ -1,0 +1,81 @@
+/* ==========================
+   TABLET
+========================== */
+
+@media (max-width: 992px) {
+
+    .navbar {
+        padding: 15px 5%;
+    }
+
+    .card-container {
+        gap: 20px;
+    }
+
+    .card {
+        width: 280px;
+    }
+
+}
+
+/* ==========================
+   MOBILE
+========================== */
+
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 15px;
+    }
+
+    .page-banner h1 {
+        font-size: 34px;
+    }
+
+    .page-banner p {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    .card,
+    .language-card,
+    .video-card {
+        width: 100%;
+    }
+
+    .logo span {
+        font-size: 22px;
+    }
+
+}
+
+/* ==========================
+   SMALL MOBILE
+========================== */
+
+@media (max-width:480px){
+
+.logo img{
+width:40px;
+height:40px;
+}
+
+.page-banner h1{
+font-size:28px;
+}
+
+.btn{
+width:100%;
+}
+
+}

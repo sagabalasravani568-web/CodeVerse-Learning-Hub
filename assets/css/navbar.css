@@ -1,0 +1,154 @@
+/* ==========================
+   NAVBAR
+========================== */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 8%;
+    background: #0f172a;
+    color: white;
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* ==========================
+   LOGO
+========================== */
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.logo span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #38bdf8;
+}
+
+/* ==========================
+   NAVIGATION LINKS
+========================== */
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #38bdf8;
+}
+
+/* ==========================
+   DARK MODE BUTTON
+========================== */
+
+#theme-btn {
+    background: transparent;
+    border: 2px solid #38bdf8;
+
+    color: white;
+
+    width: 45px;
+    height: 45px;
+
+    border-radius: 50%;
+
+    cursor: pointer;
+
+    transition: .3s;
+}
+
+#theme-btn:hover {
+
+    background: #38bdf8;
+    color: #0f172a;
+
+}
+
+/* ==========================
+   ACTIVE LINK
+========================== */
+
+.nav-links a.active{
+
+    color:#38bdf8;
+    font-weight:bold;
+
+}
+
+/* ==========================
+   MOBILE MENU
+========================== */
+
+.menu-toggle{
+
+    display:none;
+
+    font-size:28px;
+
+    cursor:pointer;
+
+}
+
+/* ==========================
+   RESPONSIVE
+========================== */
+
+@media(max-width:768px){
+
+.navbar{
+
+flex-direction:column;
+
+padding:20px;
+
+}
+
+.nav-links{
+
+flex-direction:column;
+
+gap:15px;
+
+margin-top:15px;
+
+text-align:center;
+
+}
+
+.logo{
+
+margin-bottom:10px;
+
+}
+
+}

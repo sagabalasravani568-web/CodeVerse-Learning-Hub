@@ -1,0 +1,18 @@
+{
+  "language": "SQL",
+  "difficulty": "Beginner",
+  "duration": "20 Hours",
+
+  "topics": [
+    "Introduction",
+    "Database",
+    "DDL",
+    "DML",
+    "SELECT",
+    "WHERE",
+    "GROUP BY",
+    "ORDER BY",
+    "JOINS",
+    "Sub Queries"
+  ]
+}

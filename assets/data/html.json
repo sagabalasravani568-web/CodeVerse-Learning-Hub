@@ -1,0 +1,114 @@
+{
+  "language": "HTML",
+  "icon": "fa-brands fa-html5",
+  "description": "HTML (HyperText Markup Language) is the standard markup language used to create web pages.",
+
+  "roadmap": [
+    "Introduction to HTML",
+    "HTML Document Structure",
+    "Headings & Paragraphs",
+    "Links & Images",
+    "Lists",
+    "Tables",
+    "Forms",
+    "Semantic HTML",
+    "Multimedia",
+    "Mini Project"
+  ],
+
+  "topics": [
+    "HTML Basics",
+    "HTML Elements",
+    "Attributes",
+    "Lists",
+    "Tables",
+    "Forms",
+    "Semantic Tags",
+    "Audio & Video",
+    "Iframe",
+    "Meta Tags"
+  ],
+
+  "youtube": {
+    "telugu": [
+      {
+        "title": "Naresh i Technologies",
+        "url": "https://youtube.com/"
+      },
+      {
+        "title": "Telugu Web Guru",
+        "url": "https://youtube.com/"
+      },
+      {
+        "title": "Code With Siva",
+        "url": "https://youtube.com/"
+      },
+      {
+        "title": "Easy Learn Telugu",
+        "url": "https://youtube.com/"
+      },
+      {
+        "title": "Tech Learn Telugu",
+        "url": "https://youtube.com/"
+      }
+    ],
+
+    "english": [
+      {
+        "title": "freeCodeCamp",
+        "url": "https://youtube.com/"
+      },
+      {
+        "title": "Programming with Mosh",
+        "url": "https://youtube.com/"
+      },
+      {
+        "title": "Traversy Media",
+        "url": "https://youtube.com/"
+      },
+      {
+        "title": "SuperSimpleDev",
+        "url": "https://youtube.com/"
+      },
+      {
+        "title": "The Net Ninja",
+        "url": "https://youtube.com/"
+      }
+    ]
+  },
+
+  "practice": [
+    {
+      "name": "W3Schools",
+      "url": "https://www.w3schools.com/html/"
+    },
+    {
+      "name": "MDN Web Docs",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+    },
+    {
+      "name": "freeCodeCamp",
+      "url": "https://www.freecodecamp.org/"
+    },
+    {
+      "name": "GeeksforGeeks",
+      "url": "https://www.geeksforgeeks.org/html/"
+    },
+    {
+      "name": "HackerRank",
+      "url": "https://www.hackerrank.com/"
+    }
+  ],
+
+  "difficulty": "Beginner",
+
+  "estimatedTime": "20 Hours",
+
+  "projects": [
+    "Personal Portfolio",
+    "Restaurant Website",
+    "Registration Form",
+    "Resume Website",
+    "Landing Page"
+  ]
+}

@@ -1,0 +1,240 @@
+/* ==========================================
+   CodeVerse Learning Hub
+   Dark Mode Theme System
+========================================== */
+
+/* Light Mode Variables Default */
+:root {
+    --bg-main: #f8fafc;
+    --bg-card: #ffffff;
+    --bg-alt: #f1f5f9;
+    --text-primary: #0f172a;
+    --text-secondary: #64748b;
+    --border-color: #e2e8f0;
+    --navbar-bg: #ffffff;
+    --hero-overlay: linear-gradient(rgba(37, 99, 235, 0.85), rgba(79, 70, 229, 0.85));
+}
+
+/* ==========================================
+   DARK THEME STYLES (.dark-mode & .dark)
+========================================== */
+
+body.dark-mode,
+body.dark {
+    background-color: #0f172a !important;
+    color: #f8fafc !important;
+    --bg-main: #0f172a;
+    --bg-card: #1e293b;
+    --bg-alt: #1e293b;
+    --text-primary: #f8fafc;
+    --text-secondary: #94a3b8;
+    --border-color: #334155;
+    --navbar-bg: #0f172a;
+}
+
+/* Header & Navbar */
+body.dark-mode header,
+body.dark header,
+body.dark-mode .navbar,
+body.dark .navbar {
+    background: #0f172a !important;
+    border-bottom: 1px solid #1e293b;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+body.dark-mode .nav-links a,
+body.dark .nav-links a {
+    color: #cbd5e1 !important;
+}
+
+body.dark-mode .nav-links a:hover,
+body.dark-mode .nav-links a.active,
+body.dark .nav-links a:hover,
+body.dark .nav-links a.active {
+    color: #38bdf8 !important;
+}
+
+body.dark-mode .logo span,
+body.dark .logo span {
+    color: #ffffff !important;
+}
+
+/* Theme Button Styling */
+#theme-btn {
+    background: rgba(37, 99, 235, 0.1);
+    border: 1px solid rgba(37, 99, 235, 0.2);
+    color: #2563eb;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+}
+
+#theme-btn:hover {
+    transform: scale(1.1);
+    background: rgba(37, 99, 235, 0.2);
+}
+
+body.dark-mode #theme-btn,
+body.dark #theme-btn {
+    background: rgba(245, 158, 11, 0.15);
+    border-color: rgba(245, 158, 11, 0.3);
+    color: #f59e0b;
+}
+
+/* Typography & General Sections */
+body.dark-mode section,
+body.dark section {
+    background: #0f172a;
+    color: #f8fafc;
+}
+
+body.dark-mode h1, body.dark-mode h2, body.dark-mode h3, body.dark-mode h4,
+body.dark h1, body.dark h2, body.dark h3, body.dark h4 {
+    color: #f8fafc !important;
+}
+
+body.dark-mode p,
+body.dark p {
+    color: #94a3b8 !important;
+}
+
+/* Search Box & Inputs */
+body.dark-mode .search-box input,
+body.dark .search-box input {
+    background: #1e293b !important;
+    color: #f8fafc !important;
+    border: 1px solid #334155 !important;
+}
+
+body.dark-mode .search-box input::placeholder,
+body.dark .search-box input::placeholder {
+    color: #64748b !important;
+}
+
+body.dark-mode .search-box button,
+body.dark .search-box button {
+    background: #2563eb;
+    color: #ffffff;
+}
+
+/* Cards & Content Containers */
+body.dark-mode .card,
+body.dark .card,
+body.dark-mode .feature,
+body.dark .feature,
+body.dark-mode .stat-card,
+body.dark .stat-card,
+body.dark-mode .contributor-card,
+body.dark .contributor-card,
+body.dark-mode .roadmap-step,
+body.dark .roadmap-step {
+    background: #1e293b !important;
+    border: 1px solid #334155 !important;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3) !important;
+}
+
+body.dark-mode .card:hover,
+body.dark .card:hover {
+    border-color: #38bdf8 !important;
+    box-shadow: 0 12px 30px rgba(56, 189, 248, 0.15) !important;
+}
+
+body.dark-mode .card h3,
+body.dark .card h3 {
+    color: #38bdf8 !important;
+}
+
+/* Community Insights Section in Dark Mode */
+body.dark-mode .community-insights,
+body.dark .community-insights {
+    background: linear-gradient(135deg, rgba(15, 23, 42, 0.98) 0%, rgba(30, 41, 59, 0.98) 100%) !important;
+}
+
+body.dark-mode .analytics-card,
+body.dark .analytics-card {
+    background: #1e293b !important;
+    border-color: #334155 !important;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3) !important;
+}
+
+body.dark-mode .analytics-info h3,
+body.dark .analytics-info h3 {
+    color: #ffffff !important;
+}
+
+body.dark-mode .checkin-card,
+body.dark .checkin-card {
+    background: #1e293b !important;
+    border-color: #334155 !important;
+}
+
+body.dark-mode .form-group label,
+body.dark .form-group label {
+    color: #f8fafc !important;
+}
+
+body.dark-mode .form-group input,
+body.dark-mode .form-group select,
+body.dark .form-group input,
+body.dark .form-group select {
+    background: #0f172a !important;
+    color: #f8fafc !important;
+    border-color: #334155 !important;
+}
+
+body.dark-mode .activity-ticker-container,
+body.dark .activity-ticker-container {
+    background: #1e293b !important;
+    border-color: #334155 !important;
+}
+
+body.dark-mode .ticker-item,
+body.dark .ticker-item {
+    color: #94a3b8 !important;
+}
+
+body.dark-mode .ticker-item strong,
+body.dark .ticker-item strong {
+    color: #f8fafc !important;
+}
+
+/* Floating Visitor Widget Popover Dark Mode */
+body.dark-mode .widget-popover,
+body.dark .widget-popover {
+    background: #1e293b !important;
+    border-color: #334155 !important;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5) !important;
+}
+
+body.dark-mode .popover-header h4,
+body.dark .popover-header h4 {
+    color: #f8fafc !important;
+}
+
+body.dark-mode .popover-header,
+body.dark .popover-header {
+    border-bottom-color: #334155 !important;
+}
+
+body.dark-mode .popover-stat strong,
+body.dark .popover-stat strong {
+    color: #f8fafc !important;
+}
+
+/* Footer Dark Mode */
+body.dark-mode footer,
+body.dark footer {
+    background: #020617 !important;
+    border-top: 1px solid #1e293b;
+}
+
+body.dark-mode footer h2,
+body.dark footer h2 {
+    color: #ffffff !important;
+}

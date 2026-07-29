@@ -1,0 +1,18 @@
+{
+  "language": "C Programming",
+  "difficulty": "Beginner",
+  "duration": "35 Hours",
+
+  "topics": [
+    "Introduction",
+    "Variables",
+    "Operators",
+    "Conditions",
+    "Loops",
+    "Functions",
+    "Arrays",
+    "Pointers",
+    "Structures",
+    "Files"
+  ]
+}

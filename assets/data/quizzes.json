@@ -1,0 +1,79 @@
+{
+  "HTML": [
+    {
+      "question": "HTML stands for?",
+      "options": [
+        "Hyper Text Markup Language",
+        "High Text Machine Language",
+        "Home Tool Markup Language",
+        "Hyperlinks Text Mark Language"
+      ],
+      "answer": "Hyper Text Markup Language"
+    }
+  ],
+
+  "CSS": [
+    {
+      "question": "Which property changes text color?",
+      "options": [
+        "font-color",
+        "color",
+        "text-color",
+        "background"
+      ],
+      "answer": "color"
+    }
+  ],
+
+  "JavaScript": [
+    {
+      "question": "Which keyword declares a variable?",
+      "options": [
+        "int",
+        "var",
+        "define",
+        "string"
+      ],
+      "answer": "var"
+    }
+  ],
+
+  "Python": [
+    {
+      "question": "Python is a _____ language.",
+      "options": [
+        "Compiled",
+        "Markup",
+        "Programming",
+        "Database"
+      ],
+      "answer": "Programming"
+    }
+  ],
+
+  "C": [
+    {
+      "question": "Who developed C language?",
+      "options": [
+        "Dennis Ritchie",
+        "James Gosling",
+        "Guido van Rossum",
+        "Bjarne Stroustrup"
+      ],
+      "answer": "Dennis Ritchie"
+    }
+  ],
+
+  "SQL": [
+    {
+      "question": "SQL stands for?",
+      "options": [
+        "Structured Query Language",
+        "Simple Query Language",
+        "Sequential Query Language",
+        "System Query Language"
+      ],
+      "answer": "Structured Query Language"
+    }
+  ]
+}

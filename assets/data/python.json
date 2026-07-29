@@ -1,0 +1,18 @@
+{
+  "language": "Python",
+  "difficulty": "Beginner",
+  "duration": "45 Hours",
+
+  "topics": [
+    "Introduction",
+    "Variables",
+    "Operators",
+    "Loops",
+    "Functions",
+    "Lists",
+    "Tuples",
+    "Dictionary",
+    "OOP",
+    "File Handling"
+  ]
+}

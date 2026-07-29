@@ -1,0 +1,18 @@
+{
+  "language": "CSS",
+  "difficulty": "Beginner",
+  "duration": "25 Hours",
+
+  "topics": [
+    "Introduction",
+    "Selectors",
+    "Colors",
+    "Backgrounds",
+    "Box Model",
+    "Flexbox",
+    "Grid",
+    "Animations",
+    "Responsive Design",
+    "Mini Project"
+  ]
+}

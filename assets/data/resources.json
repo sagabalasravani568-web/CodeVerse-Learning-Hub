@@ -1,0 +1,36 @@
+{
+  "practice": [
+    {
+      "name": "W3Schools",
+      "url": "https://www.w3schools.com/"
+    },
+    {
+      "name": "GeeksforGeeks",
+      "url": "https://www.geeksforgeeks.org/"
+    },
+    {
+      "name": "MDN Web Docs",
+      "url": "https://developer.mozilla.org/"
+    },
+    {
+      "name": "freeCodeCamp",
+      "url": "https://www.freecodecamp.org/"
+    },
+    {
+      "name": "HackerRank",
+      "url": "https://www.hackerrank.com/"
+    },
+    {
+      "name": "LeetCode",
+      "url": "https://leetcode.com/"
+    },
+    {
+      "name": "Programiz",
+      "url": "https://www.programiz.com/"
+    },
+    {
+      "name": "SQLBolt",
+      "url": "https://sqlbolt.com/"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "language": "JavaScript",
+  "difficulty": "Intermediate",
+  "duration": "40 Hours",
+
+  "topics": [
+    "Variables",
+    "Data Types",
+    "Operators",
+    "Conditions",
+    "Loops",
+    "Functions",
+    "Arrays",
+    "Objects",
+    "DOM",
+    "Events",
+    "Fetch API",
+    "JSON"
+  ]
+}
